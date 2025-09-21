@@ -1,7 +1,7 @@
 name: package-data-example
 channels:
   - conda-forge
-  - defaults
+  - selfexplainml
   - intake
 
 dependencies:
@@ -20,5 +20,8 @@ dependencies:
   - python-snappy
   - jupyter
   - notebook
-  - pip:
-    - jupyter-panel-proxy
+  - jupyter-panel-proxy
+  #- condastats =0.2.1=pyh4616a5c_1
+  - jq
+  - gh
+  - pygithub
